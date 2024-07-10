@@ -122,3 +122,44 @@ main section{
 .next-target{
     margin-top: 110px;
 }
+/* my next target */
+.next-target-box{
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+
+.box-title{
+    font-size: 24px;
+    font-weight:800px;
+    margin: 16px 0px;
+}
+.next-target-img{
+    margin: 16px 0px;
+}
+/*section support  */
+.search{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    height: 57px;
+}
+
+.submit{
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    padding: 17px 20px 17px 20px;
+}
